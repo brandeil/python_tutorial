@@ -61,3 +61,25 @@ numberlist.sort()
 print(numberlist)
 
 new_list = sorted(mylist)  # won't change the original list
+
+# concat 2 lists with + operator
+list1 = ["apple", "bear"]
+list2 = ["dinosaur", "rat"]
+list3 = list1 + list2
+print(sorted(list3))
+
+# slice for access subparts of a list
+list_a = [1, 2, 3, 4, 5,6 ,7 ,8,9]
+a= list_a[1:5]
+print(a)
+
+a=list_a[3:]
+print(a)
+
+# copy a list
+list_orig = ["apple", "banana", "cherry"]
+list_copy = list_orig.copy()
+list_copy = list(list_orig)
+list_copy = list_orig[:]
+print(list_copy)
+
