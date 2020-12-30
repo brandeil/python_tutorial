@@ -49,3 +49,15 @@ print(mylist3)
 # remove all elements with clear method
 item = mylist2.clear()
 print(mylist2)
+
+# reverse a list
+mylist3.reverse()
+print(mylist3)
+
+# sort a list
+numberlist = [2 , 7, 3, 2, 5,6 , 11, 5]
+print(numberlist)
+numberlist.sort()
+print(numberlist)
+
+new_list = sorted(mylist)  # won't change the original list
