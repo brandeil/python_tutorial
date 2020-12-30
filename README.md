@@ -1,4 +1,5 @@
 # Python Tutorial
 
-[Lists](lists.py)
-[Tuples](tuples.py)
+- [Utilities](utils.py)
+- [Lists](lists.py)
+- [Tuples](tuples.py)
