@@ -6,4 +6,4 @@ r = {
     "first": "tom",
     "last": "guy"
 }
-print(type(r))
+print(type(r)) # dict

@@ -73,13 +73,32 @@ list_a = [1, 2, 3, 4, 5,6 ,7 ,8,9]
 a= list_a[1:5]
 print(a)
 
-a=list_a[3:]
+a=list_a[3:]  # gets everything from index 3 to the end
 print(a)
 
 # copy a list
 list_orig = ["apple", "banana", "cherry"]
 list_copy = list_orig.copy()
 list_copy = list(list_orig)
-list_copy = list_orig[:]
+list_copy = list_orig[:]  # [:] gets everything from list
 print(list_copy)
 
+# count number of elements in a list
+names = ["John", "John", "Roger"]
+print(names.count("John"))
+
+# find the index of an item in a list
+print(names.index("Roger"))
+
+# unpacking a list
+person = "Max", 28, "Boston"
+name, age, city = person  # number of elements on left side must match number of elements on right side
+print(city)
+print(age)
+
+# unpacking a list with a wildcard
+letters = ["a", "d", "x", "y", "z", "t"]
+i1, *i2, i3 = letters
+print(i1)  # "a"
+print(i2) # returns list ["d", "x", "y", "z"]
+print(i3) # "t"
